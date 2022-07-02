@@ -19,3 +19,4 @@
 
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 git clone https://github.com/rufengsuixing/luci-app-syncdial.git package/luci-app-syncdial
+git clone https://github.com/sbwml/openwrt-alist.git --depth=1 package/luci-app-alist
